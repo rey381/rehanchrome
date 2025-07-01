@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Deskripsi Diri</title>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../CSS/index.css" />
+    <link rel="stylesheet" href="../CSS/Tugas.CSS" />A
+    <script defer src="../js/script.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header-container">
+        <a href="home1.html" class="brand" aria-label="IM homepage"
+          >REHANCHROME</a
+        >
+        <nav class="nav">
+          <a href="home1.html" class="nav-link">Home</a>
+          <a href="galeriberita.html" class="nav-link">News</a>
+          <a href="galerifoto.html" class="nav-link">Foto</a>
+          <a href="galerivideo.html" class="nav-link">Video</a>
+          <a href="aboutme.html" class="nav-link active">about</a>
+          <a href="contact.html" class="nav-link">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <div class="content">
+        <h1 class="title">Deskripsi Diri</h1>
+
+        <div class="center">
+          <img src="../jpg/rehan.jpg" alt="Foto Profil" class="profile-pic" />
+        </div>
+
+        <div class="info">
+          <p><strong>Nama:</strong> Anggi Rehan Pangestu</p>
+          <p><strong>Tanggal Lahir:</strong> 11 Mei 2007</p>
+          <p>
+            <strong>Alamat:</strong> Jl. Sindang Agung, Kec. Tanjung Raja,
+            Lampung Utara
+          </p>
+          <p><strong>No. HP:</strong> 0895-3231-59683</p>
+        </div>
+
+        <section class="section">
+          <h3 class="section-title">Tentang Saya</h3>
+          <p class="justify">
+            Saya adalah mahasiswa Universitas Muhammadiyah Kotabumi yang
+            memiliki minat dalam bidang teknologi informasi dan desain web.
+            Lulusan dari SMA 01 Tanjung Raja. Saat ini tinggal di kost di
+            Kotabumi karena kuliah. Hobi saya adalah bermain game dan memasak.
+          </p>
+        </section>
+
+        <section class="section">
+          <h3 class="section-title">Tentang Keluarga Saya</h3>
+          <p class="justify">
+            Saya berasal dari keluarga sederhana. Ayah saya, Suwiyanto, bekerja
+            sebagai petani, dan ibu saya, Sukinah, menjaga toko sembako di
+            rumah. Saya juga memiliki adik perempuan bernama Sazia Lufianti yang
+            akan masuk jenjang SMP.
+          </p>
+        </section>
+
+        <section class="section">
+          <h3 class="section-title">Tentang Teman-Teman Saya</h3>
+          <p class="justify">
+            Sejak kecil saya memiliki banyak teman, namun setelah lulus SMP kami
+            memilih jalan masing-masing. Ada yang masuk SMK, ada yang mondok,
+            dan saya sendiri masuk SMA. Kini kami jarang berkomunikasi dan hanya
+            bertemu saat lebaran atau hari besar lainnya.
+          </p>
+        </section>
+
+        <section class="center social">
+          <h3 class="section-title">Media Sosial</h3>
+          <a
+            href="https://www.instagram.com/anggi_rehanpangestu?igsh=MnZzOHhwYjFtdmF4"
+            target="_blank"
+            class="btn-primary"
+            style="text-decoration: none"
+          >
+            Instagram
+          </a>
+        </section>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-content">
+        <p>&copy; 2025 anggi rehan pangestu.</p>
+      </div>
+    </footer>
+    <script>
+      // Efek transisi halaman
+      const links = document.querySelectorAll("a[href]");
+      links.forEach((link) => {
+        link.addEventListener("click", function (e) {
+          const url = this.href;
+          if (!url.includes("#") && !this.target) {
+            e.preventDefault();
+            document.body.classList.add("fade-out");
+            setTimeout(() => {
+              window.location.href = url;
+            }, 400);
+          }
+        });
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Galeri Foto</title>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../CSS/index.css" />
+    <link rel="stylesheet" href="../CSS/galeri.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header-container">
+        <a href="home1.html" class="brand" aria-label="IM homepage"
+          >REHANCHROME</a
+        >
+        <nav class="nav">
+          <a href="home1.html" class="nav-link">Home</a>
+          <a href="galeriberita.html" class="nav-link">News</a>
+          <a href="galerifoto.html" class="nav-link active">Foto</a>
+          <a href="galerivideo.html" class="nav-link">Video</a>
+          <a href="aboutme.html" class="nav-link">about</a>
+          <a href="contact.html" class="nav-link">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container" role="main" aria-label="Galeri foto">
+      <h2 class="section-title">Galeri Foto</h2>
+      <p class="description" style="text-align: center">
+        Kumpulan foto pilihan yang menampilkan objek wisata di Provinsi
+        Lampung.<br />
+        Klik pada foto untuk melihat deskripsi lengkap.
+      </p>
+
+      <section class="gallery-grid">
+        <!-- Pasir Putih -->
+        <article class="card">
+          <a href="#modal-pasirputih">
+            <img src="../jpg/pasirputih.jpg" alt="Pasir Putih" loading="lazy" />
+          </a>
+          <div class="card-body">
+            <h2 class="card-title">Pasir Putih</h2>
+            <p class="card-desc">
+              Pantai dengan pasir putih dan air yang jernih.
+            </p>
+          </div>
+        </article>
+
+        <!-- Tanjung Setia -->
+        <article class="card">
+          <a href="#modal-tanjungsetia">
+            <img src="../jpg/tanjungsetia.jpg" alt="Tanjung Setia" loading="lazy" />
+          </a>
+          <div class="card-body">
+            <h2 class="card-title">Tanjung Setia</h2>
+            <p class="card-desc">
+              Pantai terkenal dengan ombak besar untuk selancar.
+            </p>
+          </div>
+        </article>
+
+        <!-- Gigi Hiu -->
+        <article class="card">
+          <a href="#modal-mutun">
+            <img src="../jpg/mutun.jpg" alt="Gigi Hiu" loading="lazy" />
+          </a>
+          <div class="card-body">
+            <h2 class="card-title">Gigi Hiu</h2>
+            <p class="card-desc">
+              Pantai unik dengan formasi batu karang menyerupai gigi hiu.
+            </p>
+          </div>
+        </article>
+
+        <!-- Sari Ringgung -->
+        <article class="card">
+          <a href="#modal-sariringgung">
+            <img src="../jpg/sariringgung.jpg" alt="Sari Ringgung" loading="lazy" />
+          </a>
+          <div class="card-body">
+            <h2 class="card-title">Sari Ringgung</h2>
+            <p class="card-desc">
+              Pantai populer dengan pasir timbul dan spot foto Instagramable.
+            </p>
+          </div>
+        </article>
+
+        <!-- Klara -->
+        <article class="card">
+          <a href="#modal-klara">
+            <img src="../jpg/klara.jpg" alt="Pantai Klara" loading="lazy" />
+          </a>
+          <div class="card-body">
+            <h2 class="card-title">Pantai Klara</h2>
+            <p class="card-desc">
+              Pantai dengan air tenang dan cocok untuk keluarga.
+            </p>
+          </div>
+        </article>
+      </section>
+    </main>
+
+    <!-- MODAL: Pasir Putih -->
+    <div class="modal" id="modal-pasirputih">
+      <div class="modal-content">
+        <a href="#" class="close-button">&times;</a>
+        <h2>Pasir Putih</h2>
+        <p>
+          Pasir Putih terkenal karena pasirnya yang halus dan air laut yang
+          sangat jernih. Cocok untuk snorkeling atau bersantai.
+        </p>
+      </div>
+    </div>
+
+    <!-- MODAL: Tanjung Setia -->
+    <div class="modal" id="modal-tanjungsetia">
+      <div class="modal-content">
+        <a href="#" class="close-button">&times;</a>
+        <h2>Tanjung Setia</h2>
+        <p>
+          Surga peselancar dengan ombak tinggi dan stabil sepanjang tahun. Ramai
+          dikunjungi wisatawan lokal maupun mancanegara.
+        </p>
+      </div>
+    </div>
+
+    <!-- MODAL: Gigi Hiu -->
+    <div class="modal" id="modal-mutun">
+      <div class="modal-content">
+        <a href="#" class="close-button">&times;</a>
+        <h2>Gigi Hiu</h2>
+        <p>
+          Pantai unik dengan formasi batu karang menyerupai gigi hiu. Spot foto
+          yang sangat populer.
+        </p>
+      </div>
+    </div>
+
+    <!-- MODAL: Sari Ringgung -->
+    <div class="modal" id="modal-sariringgung">
+      <div class="modal-content">
+        <a href="#" class="close-button">&times;</a>
+        <h2>Sari Ringgung</h2>
+        <p>
+          Pantai ini terkenal dengan pasir timbulnya saat air laut surut, serta
+          pemandangan dari menara pandang yang cantik.
+        </p>
+      </div>
+    </div>
+
+    <!-- MODAL: Klara -->
+    <div class="modal" id="modal-klara">
+      <div class="modal-content">
+        <a href="#" class="close-button">&times;</a>
+        <h2>Pantai Klara</h2>
+        <p>
+          Airnya tenang dan dangkal, cocok untuk wisata keluarga. Nama "Klara"
+          berasal dari "Kelapa Rapat".
+        </p>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="container footer-content">
+        <p>Dibuat dengan semangat oleh <strong>Anggi Rehan Pangestu</strong></p>
+      </div>
+    </footer>
+
+    <script src="../js/script.js"></script>
+    <script>
+      // Efek transisi halaman
+      const links = document.querySelectorAll("a[href]");
+      links.forEach((link) => {
+        link.addEventListener("click", function (e) {
+          const url = this.href;
+          if (!url.includes("#") && !this.target) {
+            e.preventDefault();
+            document.body.classList.add("fade-out");
+            setTimeout(() => {
+              window.location.href = url;
+            }, 400);
+          }
+        });
+      });
+    </script>
+  </body>
+</html>

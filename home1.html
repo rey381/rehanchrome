@@ -1,0 +1,131 @@
+<!DOCTYPE html>  <html lang="id">  
+  <head>  
+    <meta charset="UTF-8" />  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />  
+    <title>REHANCHROME - Home</title>  
+    <link  
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"  
+      rel="stylesheet"  
+    />  
+    <link rel="stylesheet" href="../CSS/index.css" />  
+  </head>  
+  <body>  
+    <header role="banner" class="header">  
+      <div class="container header-container">  
+        <a href="home1.html" class="brand" aria-label="IM homepage"  
+          >REHANCHROME</a  
+        >  
+        <nav aria-label="Primary navigation" class="nav">  
+          <a href="home1.html" class="nav-link active">Home</a>  
+          <a href="galeriberita.html" class="nav-link">News</a>  
+          <a href="galerifoto.html" class="nav-link">Foto</a>  
+          <a href="galerivideo.html" class="nav-link">Video</a>  
+          <a href="aboutme.html" class="nav-link">about</a> 
+          <a href="contact.html" class="nav-link">Contact</a>  
+        </nav>  
+      </div>  
+    </header>  <main class="main-content">  
+  <section class="hero">  
+    <div class="container hero-content">  
+      <h2>WELCOME TO REHANCHROME</h2>  
+      <p>  
+        Your primary source for the latest information in news, photo  
+        collections, videos, and innovations.  
+      </p>  
+      <a href="#features" class="btn-primary" id="exploreBtn" role="button"  
+        >Explore Now</a  
+      >  
+    </div>  
+  </section>  
+
+  <section class="features container" id="features">  
+    <h2 class="section-title">What We Offer</h2>  
+    <div class="features-grid">  
+      <article  
+        class="feature-card"  
+        tabindex="0"  
+        onclick="showFeature('tech')"  
+      >  
+        <span class="material-icons feature-icon">newspaper</span>  
+        <h3>Latest Tech News</h3>  
+        <p>  
+          Stay up-to-date with coverage of the computer science industry and  
+          tech trends.  
+        </p>  
+      </article>  
+
+      <article  
+        class="feature-card"  
+        tabindex="0"  
+        onclick="showFeature('tutorial')"  
+      >  
+        <span class="material-icons feature-icon">school</span>  
+        <h3>Expert Tutorials</h3>  
+        <p>  
+          Learn programming, system design, and more with easy-to-follow  
+          tutorials.  
+        </p>  
+      </article>  
+
+      <article  
+        class="feature-card"  
+        tabindex="0"  
+        onclick="showFeature('community')"  
+      >  
+        <span class="material-icons feature-icon">forum</span>  
+        <h3>Community Support</h3>  
+        <p>  
+          Join discussions to solve problems and share knowledge with  
+          others.  
+        </p>  
+      </article>  
+    </div>  
+  </section>  
+</main>  
+
+<footer class="footer" role="contentinfo">  
+  <div class="container footer-content">  
+    <p>&copy; 2025 IM@Website, all rights reserved.</p>  
+    <nav aria-label="Social media">  
+      <a  
+        href="https://tiktok.com"  
+        class="social-link"  
+        target="_blank"  
+        aria-label="Visit TikTok"  
+      >  
+        <span class="material-icons-outlined">music_note</span>  
+      </a>  
+      <a  
+        href="https://facebook.com"  
+        class="social-link"  
+        target="_blank"  
+        aria-label="Visit Facebook"  
+      >  
+        <span class="material-icons-outlined">facebook</span>  
+      </a>  
+      <a  
+        href="https://instagram.com"  
+        class="social-link"  
+        target="_blank"  
+        aria-label="Visit Instagram"  
+      >  
+        <span class="material-icons-outlined">photo_camera</span>  
+      </a>  
+    </nav>  
+  </div>  
+</footer>  
+
+<!-- Modal -->  
+<div id="modal" class="modal hidden">  
+  <div class="modal-content">  
+    <button class="close-btn" onclick="closeModal()">×</button>  
+    <h3 id="modal-title"></h3>  
+    <p id="modal-text"></p>  
+  </div>  
+</div>  
+
+<!-- Script -->  
+<script src="../js/script.js"></script>
+
+  </body>  
+</html>

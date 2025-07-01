@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('../jpg/keluarga.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  font-family: Arial, sans-serif;
+  color: white;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 30px;
+}
+
+.content {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 25px;
+  border-radius: 10px;
+}
+
+.title {
+  text-align: center;
+  color: #fdd835;
+}
+
+.center {
+  text-align: center;
+}
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid #fdd835;
+  margin-bottom: 20px;
+}
+
+.info {
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+.section {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 15px;
+  border-radius: 8px;
+  margin-top: 25px;
+}
+
+.section-title {
+  color: #fdd835;
+}
+
+.justify {
+  text-align: justify;
+}
+
+.social {
+  margin-top: 30px;
+}
+
+.tombol {
+  background-color: transparent;
+  border: 2px solid #fdd835;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.tombol a {
+  color: #ffe082;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.tombol:hover {
+  background-color: #fdd835;
+}
+
+.tombol:hover a {
+  color: black;
+}
